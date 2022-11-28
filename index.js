@@ -1,15 +1,16 @@
 // code your solution here
-const divide = function (){
-  const num1=2000
-  const num2 = 100
-  return (num1/num2)
-}
-let square = (num)=>{
- let x = 2;
- return(x*x)
-}
-let add =(num)=>{
-let a = 3 ;
-let b = 4
-return a + b
-}
+function saturdayFun(activity='roller-skate'){
+  //    return ("This Saturday, I want to roller-skate!");
+    return (`This Saturday, I want to ${activity}!`);
+  }
+  saturdayFun ("bathe my dog");
+  function mondayWork (task='go to the office') {
+      // return ("This Monday, I will go to yhe office")
+      return (`This Monday, I will ${task}.`)
+  }
+   mondayWork("work from home")
+    function wrapAdjective(style='*'){
+       return function (condition='special'){
+           return `You are ${style}${condition}${style}!`
+       }
+    }
